@@ -59,7 +59,7 @@ git push -u origin feature/PROJ-123-my-feature
 ```
 
 - All feature PRs target `develop`
-- Require at least **2 approving reviews** before merge
+- Require at least **1 approving review** before merge
 - Stale approvals are dismissed when new commits are pushed
 - Delete the feature branch after merge
 
@@ -133,7 +133,7 @@ git push origin --delete hotfix/fix-critical-bug
 
 - **Title**: Short, descriptive (under 70 characters)
 - **Description**: Explain what changed and why
-- **Reviews**: Minimum 2 approving reviews required
+- **Reviews**: Minimum 1 approving review required
 - **Base branch**: `develop` for features, `master` for releases and hotfixes
 
 ### Commit Messages
